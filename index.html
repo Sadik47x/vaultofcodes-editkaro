@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Editkaro.in - Where Creativity Meets Impact</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&family=Montserrat:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Progress Bar -->
+    <div class="progress-bar"></div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1 class="logo-text">Editkaro.in</h1>
+        <p class="hero-subtitle">Where Creativity Meets Impact</p>
+        <p style="font-size: 1.2rem; margin-bottom: 40px; color: #a0a0a0">
+          From reels to documentaries, we turn visions into viral content.
+        </p>
+        <a href="#portfolio" class="cta-button">Work With Us</a>
+      </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats fade-in">
+      <div class="stats-container">
+        <div class="stat-item">
+          <div class="stat-number" data-target="200">0</div>
+          <div class="stat-label">Projects Edited</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="50">0</div>
+          <div class="stat-label">Happy Clients</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="1000000">0</div>
+          <div class="stat-label">Total Views</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio fade-in" id="portfolio">
+      <h2 class="section-title">Our Creative Portfolio</h2>
+      <p class="section-subtitle">
+        Explore our diverse range of video editing masterpieces
+      </p>
+
+      <!-- Filter Buttons -->
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">
+          All Projects
+        </button>
+        <button class="filter-btn" data-filter="short-form">Short-form</button>
+        <button class="filter-btn" data-filter="long-form">Long-form</button>
+        <button class="filter-btn" data-filter="gaming">Gaming</button>
+        <button class="filter-btn" data-filter="football">Football</button>
+        <button class="filter-btn" data-filter="ecommerce">
+          eCommerce Ads
+        </button>
+        <button class="filter-btn" data-filter="documentary">
+          Documentary
+        </button>
+        <button class="filter-btn" data-filter="color-grading">
+          Color Grading
+        </button>
+        <button class="filter-btn" data-filter="anime">Anime</button>
+        <button class="filter-btn" data-filter="ads">Ads</button>
+      </div>
+
+      <!-- Video Grid -->
+      <div class="video-grid">
+        <!-- Short-form Videos -->
+        <div
+          class="video-card"
+          data-category="short-form"
+          data-title="Viral Instagram Reel"
+          data-description="A captivating 30-second reel that gained over 500K views with dynamic transitions and trending music sync."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Viral Instagram Reel</div>
+              <div class="video-category">Short-form</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="video-card"
+          data-category="short-form"
+          data-title="TikTok Dance Challenge"
+          data-description="High-energy dance video with perfect beat sync and creative visual effects that went viral."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">TikTok Dance Challenge</div>
+              <div class="video-category">Short-form</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Long-form Videos -->
+        <div
+          class="video-card"
+          data-category="long-form"
+          data-title="Brand Documentary"
+          data-description="A 20-minute documentary showcasing a startup's journey with cinematic storytelling and professional color grading."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Brand Documentary</div>
+              <div class="video-category">Long-form</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="video-card"
+          data-category="long-form"
+          data-title="Corporate Training Video"
+          data-description="Educational content with engaging animations and clear narrative structure for employee onboarding."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Corporate Training Video</div>
+              <div class="video-category">Long-form</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gaming Videos -->
+        <div
+          class="video-card"
+          data-category="gaming"
+          data-title="Epic Gaming Montage"
+          data-description="High-octane gaming highlights with synchronized music, slow-motion effects, and dynamic transitions."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Epic Gaming Montage</div>
+              <div class="video-category">Gaming</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="video-card"
+          data-category="gaming"
+          data-title="Esports Tournament Recap"
+          data-description="Professional tournament highlights with multi-camera editing and commentary integration."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Esports Tournament Recap</div>
+              <div class="video-category">Gaming</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Football Videos -->
+        <div
+          class="video-card"
+          data-category="football"
+          data-title="Match Highlights Reel"
+          data-description="Dramatic football match highlights with slow-motion replays and emotional storytelling."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Match Highlights Reel</div>
+              <div class="video-category">Football</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="video-card"
+          data-category="football"
+          data-title="Player Skills Showcase"
+          data-description="Individual player highlight reel with creative transitions and motivational music."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Player Skills Showcase</div>
+              <div class="video-category">Football</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- eCommerce Ads -->
+        <div
+          class="video-card"
+          data-category="ecommerce"
+          data-title="Product Launch Campaign"
+          data-description="Sleek product showcase with 3D animations and compelling call-to-action messaging."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Product Launch Campaign</div>
+              <div class="video-category">eCommerce</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="video-card"
+          data-category="ecommerce"
+          data-title="Fashion Brand Commercial"
+          data-description="High-fashion commercial with cinematic lighting and luxury brand aesthetics."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Fashion Brand Commercial</div>
+              <div class="video-category">eCommerce</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Documentary -->
+        <div
+          class="video-card"
+          data-category="documentary"
+          data-title="Social Impact Story"
+          data-description="Powerful documentary about community change with emotional interviews and compelling visuals."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Social Impact Story</div>
+              <div class="video-category">Documentary</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Color Grading -->
+        <div
+          class="video-card"
+          data-category="color-grading"
+          data-title="Cinematic Color Transformation"
+          data-description="Before/after showcase of professional color grading that transforms ordinary footage into cinematic masterpiece."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Cinematic Color Transformation</div>
+              <div class="video-category">Color Grading</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Anime -->
+        <div
+          class="video-card"
+          data-category="anime"
+          data-title="Anime Music Video"
+          data-description="Dynamic anime AMV with perfect music synchronization and creative visual effects."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Anime Music Video</div>
+              <div class="video-category">Anime</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ads -->
+        <div
+          class="video-card"
+          data-category="ads"
+          data-title="Tech Startup Commercial"
+          data-description="Modern tech commercial with sleek animations and futuristic design elements."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Tech Startup Commercial</div>
+              <div class="video-category">Ads</div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="video-card"
+          data-category="ads"
+          data-title="Food Brand Campaign"
+          data-description="Mouth-watering food commercial with appetizing close-ups and lifestyle integration."
+        >
+          <div class="video-thumbnail">
+            <div class="play-icon">▶</div>
+            <div class="video-title-overlay">
+              <div class="video-title">Food Brand Campaign</div>
+              <div class="video-category">Ads</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client Testimonials -->
+    <section class="testimonials fade-in">
+      <div class="testimonials-container">
+        <h2 class="section-title">What Our Clients Say</h2>
+        <p class="section-subtitle">Real feedback from satisfied customers</p>
+        <div class="testimonial-wrapper">
+          <button class="testimonial-nav prev" onclick="changeTestimonial(-1)">
+            ‹
+          </button>
+          <div class="testimonial-slider" id="testimonialSlider">
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "Amazing promotional videos! Their creativity impressed us
+                completely."
+              </div>
+              <div class="testimonial-author">Rajesh Sharma</div>
+              <div class="testimonial-role">Founder, TechInnovate India</div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "Gaming montages went viral! Professional quality delivered on
+                time."
+              </div>
+              <div class="testimonial-author">Priya Patel</div>
+              <div class="testimonial-role">Team Manager, Mumbai Mavericks</div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "Perfect execution! Our documentary won three national awards."
+              </div>
+              <div class="testimonial-author">Maria Rodriguez</div>
+              <div class="testimonial-role">Film Producer, Indie Studios</div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "Phenomenal color grading! Hollywood quality at Indian prices."
+              </div>
+              <div class="testimonial-author">David Kim</div>
+              <div class="testimonial-role">Creative Director, Luxe Brands</div>
+            </div>
+            <div class="testimonial-card">
+              <div class="testimonial-text">
+                "Transformed our social media! Creative vision is unmatched."
+              </div>
+              <div class="testimonial-author">Arjun Mehta</div>
+              <div class="testimonial-role">
+                Marketing Head, Delhi Digital Solutions
+              </div>
+            </div>
+          </div>
+          <button class="testimonial-nav next" onclick="changeTestimonial(1)">
+            ›
+          </button>
+        </div>
+        <div class="testimonial-dots" id="testimonialDots">
+          <div
+            class="testimonial-dot active"
+            onclick="goToTestimonial(0)"
+          ></div>
+          <div class="testimonial-dot" onclick="goToTestimonial(1)"></div>
+          <div class="testimonial-dot" onclick="goToTestimonial(2)"></div>
+          <div class="testimonial-dot" onclick="goToTestimonial(3)"></div>
+          <div class="testimonial-dot" onclick="goToTestimonial(4)"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section fade-in">
+      <h2 class="section-title">Our Expertise</h2>
+      <p class="section-subtitle">What we excel at</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">🎬</div>
+          <h3>Video Editing</h3>
+          <p>Professional editing with smooth transitions and perfect timing</p>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="98"></div>
+          </div>
+          <span class="skill-percentage">Expert Level</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎨</div>
+          <h3>Color Grading</h3>
+          <p>Cinematic color correction and mood enhancement</p>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="96"></div>
+          </div>
+          <span class="skill-percentage">Master Level</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">✨</div>
+          <h3>Motion Graphics</h3>
+          <p>Eye-catching animations and visual effects</p>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="94"></div>
+          </div>
+          <span class="skill-percentage">Advanced</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">🎵</div>
+          <h3>Sound Design</h3>
+          <p>Audio mixing and soundtrack synchronization</p>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="92"></div>
+          </div>
+          <span class="skill-percentage">Professional</span>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">📖</div>
+          <h3>Storytelling</h3>
+          <p>Compelling narratives that engage audiences</p>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="99"></div>
+          </div>
+          <span class="skill-percentage">Elite Level</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Timeline -->
+    <section class="timeline fade-in">
+      <h2 class="section-title">Our Journey</h2>
+      <p class="section-subtitle">Milestones that define our growth</p>
+      <div class="timeline-container">
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2024 - AI Integration</h3>
+            <p>
+              Integrated cutting-edge AI tools for faster editing and enhanced
+              creativity. Reduced project turnaround time by 40%.
+            </p>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2024</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2023 - 1M+ Views Milestone</h3>
+            <p>
+              Our client videos collectively reached over 1 million views across
+              all platforms. Expanded team to 15 specialists.
+            </p>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2023</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2022 - Documentary Success</h3>
+            <p>
+              Produced award-winning documentaries and entered the long-form
+              content market. Established partnerships with streaming platforms.
+            </p>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2022</div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>2021 - Editkaro.in Founded</h3>
+            <p>
+              Started with a vision to democratize professional video editing.
+              Completed first 50 projects with 100% client satisfaction.
+            </p>
+          </div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-year">2021</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Calculator -->
+    <section class="pricing-calculator fade-in">
+      <div class="calculator-container">
+        <h2 class="section-title">Project Cost Calculator</h2>
+        <p class="section-subtitle">Get an instant estimate for your project</p>
+
+        <div class="calculator-option">
+          <label>
+            <input type="checkbox" data-price="5000" /> Short-form Content
+            (Reels, TikToks)
+          </label>
+          <span>₹5,000</span>
+        </div>
+
+        <div class="calculator-option">
+          <label>
+            <input type="checkbox" data-price="15000" /> Long-form Content
+            (YouTube, Documentaries)
+          </label>
+          <span>₹15,000</span>
+        </div>
+
+        <div class="calculator-option">
+          <label>
+            <input type="checkbox" data-price="8000" /> Gaming Montages &
+            Highlights
+          </label>
+          <span>₹8,000</span>
+        </div>
+
+        <div class="calculator-option">
+          <label>
+            <input type="checkbox" data-price="12000" /> Commercial Ads & Promos
+          </label>
+          <span>₹12,000</span>
+        </div>
+
+        <div class="calculator-option">
+          <label>
+            <input type="checkbox" data-price="6000" /> Color Grading &
+            Enhancement
+          </label>
+          <span>₹6,000</span>
+        </div>
+
+        <div class="calculator-option">
+          <label>
+            <input type="checkbox" data-price="4000" /> Motion Graphics &
+            Animations
+          </label>
+          <span>₹4,000</span>
+        </div>
+
+        <div class="price-display" id="totalPrice">Total: ₹0</div>
+      </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <div class="lightbox-content">
+        <button class="close-btn">&times;</button>
+        <h3 id="lightbox-title">Video Title</h3>
+        <p id="lightbox-description">Video description goes here...</p>
+        <div class="loading-overlay" id="loadingOverlay">
+          <div class="loading-spinner"></div>
+        </div>
+        <div
+          style="
+            margin-top: 20px;
+            padding: 40px;
+            background: rgba(139, 92, 246, 0.1);
+            border-radius: 10px;
+            text-align: center;
+          "
+        >
+          <p style="color: #8b5cf6; font-weight: 600">🎬 Video Preview</p>
+          <p style="margin-top: 10px; color: #a0a0a0">
+            This is a demo portfolio. In a real implementation, the actual video
+            would play here.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dedicated Contact Buttons -->
+    <div class="contact-buttons">
+      <button
+        class="contact-btn contact-us"
+        data-tooltip="Contact Us"
+        onclick="toggleChat()"
+      >
+        💬
+      </button>
+      <button
+        class="contact-btn call-us"
+        data-tooltip="Call Us"
+        onclick="window.open('tel:+919876543210')"
+      >
+        📞
+      </button>
+    </div>
+
+    <!-- Floating Action Menu -->
+    <div class="floating-menu">
+      <div class="floating-options" id="floatingOptions">
+        <button
+          class="floating-option"
+          data-tooltip="Get Quote"
+          onclick="scrollToSection('pricing-calculator')"
+        >
+          💰
+        </button>
+        <button
+          class="floating-option"
+          data-tooltip="View Portfolio"
+          onclick="scrollToSection('portfolio')"
+        >
+          🎬
+        </button>
+        <button
+          class="floating-option"
+          data-tooltip="Contact Us"
+          onclick="toggleChat()"
+        >
+          💬
+        </button>
+        <button
+          class="floating-option"
+          data-tooltip="Call Us"
+          onclick="window.open('tel:+919876543210')"
+        >
+          📞
+        </button>
+      </div>
+      <button class="floating-btn" id="floatingBtn">⚡</button>
+    </div>
+
+    <!-- Theme Toggle -->
+    <div class="theme-toggle" id="themeToggle">🌙 Dark Mode</div>
+
+    <!-- Chat Overlay -->
+    <div class="chat-overlay" id="chatOverlay" onclick="closeChat()"></div>
+
+    <!-- Chat Popup -->
+    <div class="chat-popup" id="chatPopup">
+      <div class="chat-header">
+        <h3>💬 Live Support</h3>
+        <button class="chat-close" onclick="closeChat()">✕</button>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="message bot">
+          Hi there! 👋 I'm here to help you with your video editing needs. What
+          amazing project are you working on?
+        </div>
+      </div>
+      <div class="chat-input-area">
+        <input
+          type="text"
+          id="chatInput"
+          placeholder="Type your message..."
+          onkeypress="handleChatInput(event)"
+        />
+        <button class="chat-send" onclick="sendMessage()">Send</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      (function () {
+        function c() {
+          var b = a.contentDocument || a.contentWindow.document;
+          if (b) {
+            var d = b.createElement("script");
+            d.innerHTML =
+              "window.__CF$cv$params={r:'97291714e5278606',t:'MTc1NTc2ODQwMC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";
+            b.getElementsByTagName("head")[0].appendChild(d);
+          }
+        }
+        if (document.body) {
+          var a = document.createElement("iframe");
+          a.height = 1;
+          a.width = 1;
+          a.style.position = "absolute";
+          a.style.top = 0;
+          a.style.left = 0;
+          a.style.border = "none";
+          a.style.visibility = "hidden";
+          document.body.appendChild(a);
+          if ("loading" !== document.readyState) c();
+          else if (window.addEventListener)
+            document.addEventListener("DOMContentLoaded", c);
+          else {
+            var e = document.onreadystatechange || function () {};
+            document.onreadystatechange = function (b) {
+              e(b);
+              "loading" !== document.readyState &&
+                ((document.onreadystatechange = e), c());
+            };
+          }
+        }
+      })();
+    </script>
+  </body>
+</html>
