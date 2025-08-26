@@ -52,7 +52,7 @@ To design a real-world portfolio webpage that:
 🚀 Live Demo
 
 👉 View Project
- (replace with GitHub Pages link)
+ https://sadik47x.github.io/vaultofcodes-editkaro/
 
 📷 Preview
 
